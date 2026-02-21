@@ -6,6 +6,7 @@
 
 #Intented users - Data analysts, and regulatory auditors
 
-#data source Public pharmacuetical drug sales datasets from kaggle.
-#link https://www.kaggle.com/datasets/singhnavjot2062001/pharmaceutical-drug-sales
+#Data source - Public pharmaceutical sales dataset containing multi-year drug sales records with date, product category, and quantity sold. 
+link
+https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data?resource=download
 
