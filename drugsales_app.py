@@ -4,9 +4,7 @@ import oracledb
 
 
 def get_connection():
-    oracledb.init_oracle_client(
-        lib_dir="/Users/gabrielagurr/Downloads/instantclient_23_3"
-    )
+
 
 
     connection = oracledb.connect(

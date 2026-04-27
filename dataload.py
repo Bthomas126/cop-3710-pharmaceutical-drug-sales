@@ -2,14 +2,14 @@ import oracledb
 import pandas as pd
 
 # initialize Oracle client
-oracledb.init_oracle_client(lib_dir="./instantclient_21_9")
+
 
 dsn = "db.freesql.com:1521/23ai_34ui2"
 
 connection = oracledb.connect(
     user="BTHOMAS6012_SCHEMA_MHZNN",
     password="AR6AFFK#8SFERGKWOYFZ9mY9OX0635",
-    dsn=dsn
+    dsn=dsn,
 )
 
 cursor = connection.cursor()
